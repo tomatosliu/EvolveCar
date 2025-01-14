@@ -63,4 +63,5 @@ setup(
     include_package_data=False,
     data_files=[],
     entry_points={},
+    packages=find_packages(exclude=["data"]),
 )
